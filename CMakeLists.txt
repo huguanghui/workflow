@@ -1,5 +1,8 @@
 cmake_minimum_required(VERSION 3.9)
-project(workflow VERSION 1.23.0 LANGUAGES C CXX)
+project(
+  workflow
+  VERSION 1.23.0
+  LANGUAGES C CXX)
 
 option(WORKFLOW_BUILD_TESTS "Build WorkFLow's unit tests" ON)
 option(WORKFLOW_BUILD_BENCHMARKS "Build WorkFLow's benchmarks" ON)
