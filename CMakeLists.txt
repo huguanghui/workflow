@@ -19,3 +19,5 @@ endif(BUILD_SHARED_LIBS)
 
 add_library(workflow "")
 target_sources(workflow PRIVATE "src/api.cc")
+
+install(TARGETS workflow RUNTIME DESTINATION lib)
